@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          info, health, beans, configprops, threaddump
+
+server:
+    port: 8081
